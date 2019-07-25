@@ -23,7 +23,7 @@
     <license>The MIT License (MIT)</license>
 	<assets>
 			<icon>resources/media/icon.jpg</icon>
-			<fanart>resources/media/fanart.jpg</fanart>
+			<fanart>resources/media/fanart.png</fanart>
 			<screenshot>resources/media/icon1.png</screenshot>
 			<screenshot>resources/media/logo.jpg</screenshot>
 			<screenshot>resources/media/icon.jpg</screenshot>
