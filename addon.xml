@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.thomhartmannprogram" name="Thom Hartmann Program" version="1.0.0" provider-name="leopheard">
+<addon id="plugin.video.thomhartmannprogram"
+	name="Thom Hartman Program"
+	version="1.0.0"
+	provider-name="leopheard">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.xbmcswift2" version="2.4.0"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
-    <import addon="script.module.requests" version="1.1.0"/>
-    <import addon="script.module.routing" version="0.2.0"/>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -14,14 +15,13 @@
     <summary lang="en">Thom Hartmann Program</summary>
     <description lang="en">Thom Hartmann is live Monday to Friday from 12 to 3 PM ET. Call in on 202-808-9925. Watch the re-run of the three hour program as a supporter at Patreon http://www.patreon.com/thomhartmann. The Thom Hartmann Program is live on YouTube, Free Speech TV and on AM/FM radio stations across the US, plus on XM and Sirius Satellite radio</description>
     <platform>all</platform>
-    <language></language>
+    <language>en</language>
     <forum></forum>
-    <email>leopheard@gmail.com</email>
-    <license>The MIT License (MIT)</license>
     <source>https://github.com/leopheard/thomhartmannprogram.git</source>
     <website>https://www.hartmannreport.com/</website>
-    <audio_guide></audio_guide>
-        	<assets>
+    <email>leopheard@gmail.com</email>
+    <license>The MIT License (MIT)</license>
+	<assets>
 			<icon>resources/media/icon.jpg</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
 			<screenshot>resources/media/icon1.png</screenshot>

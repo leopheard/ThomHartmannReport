@@ -28,7 +28,7 @@ def run():
         main_list(params)
     else:
         pass
-
+    
     plugintools.close_item_list()
 
 # Main menu
