@@ -19,7 +19,7 @@ YOUTUBE_CHANNEL_ID = "thomhartmann"
 
 # Entry point
 def run():
-    plugintools.log("videorun.run")
+    plugintools.log("thomhartmannprogram.run")
     
     # Get params
     params = plugintools.get_params()
@@ -33,7 +33,7 @@ def run():
 
 # Main menu
 def main_list(params):
-    plugintools.log("videorun.main_list "+repr(params))
+    plugintools.log("thomhartmannprogram.main_list "+repr(params))
 #note below - some YTs are /user/xxx and some /channel/xxx
     plugintools.add_item( 
         #action="", 
